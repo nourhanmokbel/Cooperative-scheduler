@@ -59,6 +59,8 @@ void insertD(n temp);
 
 void Dispatch(void);
 void Init(void);
-
+void TaskA();
+void TaskB();
+void TaskC();
 
 #endif //#ifndef coSched_H
