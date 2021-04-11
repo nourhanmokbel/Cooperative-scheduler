@@ -10,6 +10,7 @@ We developed two queues using linkedlist. The two queues are ready and delay que
     STM32l432KC " STM32 Nucleo Board"
     RTC DS3231
 # Unit Tests
+In first screenshot: taskA is queued from the main. taskB is queued from A and C is queued from B while dispatch is continuously running in while loop present in the main 
 # Applications
     Ambient temperature monitor
     Parking sensor 
